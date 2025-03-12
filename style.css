@@ -11,10 +11,10 @@ body {
     font-family:  Arial, verdana, sans-serif;
 }
 
-div {
+.container {
     background-color: white;
     width: 900px;
-    height: 1220px;
+    height: 1250px;
     margin: 0 auto;
     box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.101);
     
@@ -120,18 +120,27 @@ figure > p {
     width: 323px;
 }
 
-footer > span {
-    height: 64px;
-    width: 119px;
-    padding-right: 58px;
-    margin-left: 0px;
+footer {
+    display: inline-block;
+    
+    width: 900px;
+    height: 100px;
 }
 
-footer {
-    display: flex;
-    background-color: white;
-    width: 300px;
-    height: 10px;
-    margin: auto;
-      
+.icones {
+    display: inline-block;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-inline-end: 30px;
+
+       
 }
+
+#frase > p {
+    color: red;
+     font-size: 2.2em;  
+     font-weight: bold; 
+     
+}
+
